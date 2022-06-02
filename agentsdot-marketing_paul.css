@@ -38,6 +38,10 @@
     width: min(calc(100% - 128px), 1296px) !important;
 }
 
+.Section_root__Qk46X.bg-grey20 .Section_content__NwJsQ {
+    text-align: center !important;
+}
+
 
 @media (max-width: 767px) {
     .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL img {
