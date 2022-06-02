@@ -84,7 +84,7 @@
     .LearnMoreMediaSection_right__BkXxm {
         width: auto !important;
     }
-    
+
     .LearnMoreMediaSection_listTitle__SAw_C {
         margin-top: 0 !important;
     }
@@ -108,6 +108,14 @@
 
     .CaseStudySection_case-info-title__v1Fl7 {
         font-size: 20px !important;
+    }
+
+    .LearnMoreMediaSection_list__QJJIi li {
+        font-size: 16px !important;
+    }
+
+    .LearnMoreMediaSection_listTitle__SAw_C {
+        font-size: 24px !important;
     }
 }
 
