@@ -76,13 +76,17 @@
     .LearnMoreMediaSection_container__S7e5q {
         display: grid !important;
         column-gap: 7% !important;
-        /* align-items: center; */
+        align-items: center !important;
         grid-template-columns: 2fr 3.5fr !important;
     }
 
     .LearnMoreMediaSection_left__9_P5I,
     .LearnMoreMediaSection_right__BkXxm {
         width: auto !important;
+    }
+    
+    .LearnMoreMediaSection_listTitle__SAw_C {
+        margin-top: 0 !important;
     }
 }
 
