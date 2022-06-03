@@ -59,6 +59,45 @@
 }
 
 
+@media (max-width: 991px) {
+
+    .CaseStudySection_summary-caseName-bottom__I7JGV,
+    .CaseStudySection_summary-caseName-top__yeJdf,
+    .CaseStudySection_summary-title-bottom___rl48,
+    .CaseStudySection_summary-title-top__qNm_6 {
+        font-size: 54px !important;
+    }
+
+    .QuoteSection_container__kX8Pj,
+    .Section_root__Qk46X .Section_content__NwJsQ,
+    .MarketingSliderSection_container__0ySll,
+    .TitleSection_container__n3bPL {
+        width: min(calc(100% - 96px), 1296px) !important;
+    }
+
+    .CaseStudySection_case-info-title__v1Fl7 {
+        font-size: 20px !important;
+    }
+
+    .LearnMoreMediaSection_list__QJJIi li,
+    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-info__NprnH .CaseStudySection_case-info-list__4PqDO {
+        font-size: 16px !important;
+    }
+
+    .LearnMoreMediaSection_listTitle__SAw_C {
+        font-size: 24px !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_comment__HEcPT p {
+        font-size: 20px !important;
+    }
+
+    .AgentThinkCarousel_root__ucEpY .AgentThinkCarousel_agentThink__nR1MU {
+        min-width: min(100vw - 200px) !important;
+    }
+
+}
+
 @media (min-width: 768px) {
     .CaseStudySection_summary-extra__MsFU_ {
         grid-column: 3 / span 1 !important;
@@ -99,10 +138,6 @@
         height: 50px;
     }
 
-    .AgentThink_experienceMetric__879LD {
-        font-size: 42px !important;
-    }
-
     .AgentThink_root__knnYp .AgentThink_experienceMetric__879LD {
         flex-shrink: 0;
     }
@@ -112,50 +147,10 @@
     }
 
     .AgentThink_root__knnYp .AgentThink_experienceMetric__879LD {
-        margin-bottom: -5px !important;
+        margin-bottom: -3px !important;
     }
 
 }
-
-@media (max-width: 991px) {
-
-    .CaseStudySection_summary-caseName-bottom__I7JGV,
-    .CaseStudySection_summary-caseName-top__yeJdf,
-    .CaseStudySection_summary-title-bottom___rl48,
-    .CaseStudySection_summary-title-top__qNm_6 {
-        font-size: 54px !important;
-    }
-
-    .QuoteSection_container__kX8Pj,
-    .Section_root__Qk46X .Section_content__NwJsQ,
-    .MarketingSliderSection_container__0ySll,
-    .TitleSection_container__n3bPL {
-        width: min(calc(100% - 96px), 1296px) !important;
-    }
-
-    .CaseStudySection_case-info-title__v1Fl7 {
-        font-size: 20px !important;
-    }
-
-    .LearnMoreMediaSection_list__QJJIi li,
-    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-info__NprnH .CaseStudySection_case-info-list__4PqDO {
-        font-size: 16px !important;
-    }
-
-    .LearnMoreMediaSection_listTitle__SAw_C {
-        font-size: 24px !important;
-    }
-
-    .AgentThink_root__knnYp .AgentThink_comment__HEcPT p {
-        font-size: 20px !important;
-    }
-
-    .AgentThinkCarousel_root__ucEpY .AgentThinkCarousel_agentThink__nR1MU {
-        min-width: min(100vw - 200px) !important;
-    }
-
-}
-
 
 @media (max-width: 767px) {
     .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL img {
