@@ -1,4 +1,4 @@
-/* PAUL CSS */
+/* --------------------------- PAUL CSS --------------------------- */
 
 .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL img {
     height: 100% !important;
@@ -14,6 +14,7 @@
 .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE {
     grid-column-gap: 7% !important;
     grid-template-columns: 2fr 3.5fr !important;
+    align-items: center;
 }
 
 .Section_root__Qk46X .Section_content__NwJsQ {
@@ -42,29 +43,18 @@
     text-align: center !important;
 }
 
+.AgentThinkCarousel_root__ucEpY .AgentThinkCarousel_content__eEP91 .AgentThinkCarousel_agentThink__nR1MU {
+    height: 100% !important;
+}
 
-@media (max-width: 767px) {
-    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL img {
-        width: 100% !important;
-        height: unset !important;
-    }
+.AgentThink_root__knnYp .AgentThink_agentMarket__EVEuW,
+.AgentThink_root__knnYp .AgentThink_agentTitle__23bpv,
+.AgentThink_root__knnYp .AgentThink_displayName__K61Rz {
+    line-height: 130% !important;
+}
 
-    .CaseStudySection_container__jhRUn .CaseStudySection_summary__lUHII {
-        grid-template-columns: unset !important;
-    }
-
-    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL {
-        height: auto !important;
-    }
-
-    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE {
-        grid-template-columns: 1fr !important;
-    }
-
-    .CaseStudySection_summary-extra__MsFU_ {
-        padding-top: 0px !important;
-    }
-
+.AgentThink_root__knnYp .AgentThink_container__FzVxv {
+    align-items: unset !important;
 }
 
 @media (min-width: 768px) {
@@ -92,6 +82,38 @@
     .LearnMoreMediaSection_listTitle__SAw_C {
         margin-top: 0 !important;
     }
+
+    .AgentThink_root__knnYp .AgentThink_experience__22rjz {
+        align-items: flex-end !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_content__fNiXm {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between !important;
+        /* height: 100%; */
+    }
+
+    .AgentThink_root__knnYp .AgentThink_displayName__K61Rz {
+        height: 50px;
+    }
+
+    .AgentThink_experienceMetric__879LD {
+        font-size: 42px !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_experienceMetric__879LD {
+        flex-shrink: 0;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_experienceIntroduce__qeylO {
+        max-width: 300px !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_experienceMetric__879LD {
+        margin-bottom: -5px !important;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -122,6 +144,54 @@
     .LearnMoreMediaSection_listTitle__SAw_C {
         font-size: 24px !important;
     }
+
+    .AgentThink_root__knnYp .AgentThink_comment__HEcPT p {
+        font-size: 20px !important;
+    }
+    
+    .AgentThinkCarousel_root__ucEpY .AgentThinkCarousel_agentThink__nR1MU {
+        min-width: min(100vw - 200px) !important;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL img {
+        width: 100% !important;
+        height: unset !important;
+    }
+
+    .CaseStudySection_container__jhRUn .CaseStudySection_summary__lUHII {
+        grid-template-columns: unset !important;
+    }
+
+    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE .CaseStudySection_case-image__XAHlL {
+        /* height: auto !important; */
+    }
+
+    .CaseStudySection_container__jhRUn .CaseStudySection_case__D2QDE {
+        grid-template-columns: 1fr !important;
+    }
+
+    .CaseStudySection_summary-extra__MsFU_ {
+        padding-top: 0px !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_avatar__lT4rj {
+        height: 70px !important;
+        width: 70px !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_agentTitle__23bpv {
+        margin-bottom: 0 !important;
+    }
+
+    .AgentThink_root__knnYp .AgentThink_experience__22rjz {
+        align-items: flex-start !important;
+        grid-row-gap: 10px !important;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -132,6 +202,10 @@
     .TitleSection_container__n3bPL {
         width: min(calc(100% - 36px), 1296px) !important;
     }
+    
+    .AgentThinkCarousel_root__ucEpY .AgentThinkCarousel_agentThink__nR1MU {
+        min-width: min(100vw - 60px) !important;
+    }
 }
 
-/* PAUL CSS END */
+/* --------------------------- PAUL CSS END --------------------------- */
